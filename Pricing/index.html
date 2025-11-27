@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Planes y precios</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Planes y precios</h1>
+    <button id="toggleBilling">Mensual / Anual</button>
+  </header>
+
+  <main class="section">
+    <h2>Elige tu plan</h2>
+    <p class="subtitle">
+      Cambia entre pago mensual y anual con un clic.
+    </p>
+
+    <div class="pricing-grid">
+      <article class="plan" data-plan="starter">
+        <h3 class="plan-name">Starter</h3>
+        <p class="plan-price">
+          <span class="price-amount" data-monthly="9" data-yearly="90">9</span>
+          <span class="price-period">USD/mes</span>
+        </p>
+        <p class="plan-desc">Para proyectos personales.</p>
+        <ul>
+          <li>1 proyecto</li>
+          <li>Hasta 5 usuarios</li>
+          <li>Soporte por email</li>
+        </ul>
+        <button class="btn btn-outline">Elegir Starter</button>
+      </article>
+
+      <article class="plan plan-featured" data-plan="pro">
+        <p class="plan-tag">Más popular</p>
+        <h3 class="plan-name">Pro</h3>
+        <p class="plan-price">
+          <span class="price-amount" data-monthly="29" data-yearly="290">29</span>
+          <span class="price-period">USD/mes</span>
+        </p>
+        <p class="plan-desc">Para equipos en crecimiento.</p>
+        <ul>
+          <li>Proyectos ilimitados</li>
+          <li>Hasta 20 usuarios</li>
+          <li>Soporte prioritario</li>
+          <li>Integraciones avanzadas</li>
+        </ul>
+        <button class="btn btn-primary">Elegir Pro</button>
+      </article>
+
+      <article class="plan" data-plan="enterprise">
+        <h3 class="plan-name">Enterprise</h3>
+        <p class="plan-price">
+          <span class="price-amount" data-monthly="0" data-yearly="0">A medida</span>
+          <span class="price-period">Contáctanos</span>
+        </p>
+        <p class="plan-desc">Soluciones personalizadas.</p>
+        <ul>
+          <li>Onboarding dedicado</li>
+          <li>Soporte 24/7</li>
+          <li>Integraciones a medida</li>
+          <li>SLA personalizados</li>
+        </ul>
+        <button class="btn btn-outline">Hablar con ventas</button>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Mi Empresa. Todos los derechos reservados.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
