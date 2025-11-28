@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Preguntas frecuentes de Mi Empresa para resolver tus dudas rápidamente." />
+  <title>FAQ | Mi Empresa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar__container container">
+      <a href="../home/index.html" class="navbar__logo">Mi Empresa</a>
+      <button class="navbar__toggle" aria-label="Abrir menú">&#9776;</button>
+      <ul class="navbar__menu">
+        <li><a href="../home/index.html" class="navbar__link">Home</a></li>
+        <li><a href="../about-us/index.html" class="navbar__link">About Us</a></li>
+        <li><a href="../Pricing/index.html" class="navbar__link">Pricing</a></li>
+        <li><a href="index.html" class="navbar__link navbar__link--active">FAQ</a></li>
+        <li><a href="../testimonials/index.html" class="navbar__link">Testimonios</a></li>
+        <li><a href="../Contac/index.html" class="navbar__link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="faq">
+    <div class="faq__container container">
+      <h1 class="faq__title">Preguntas frecuentes</h1>
+      <p class="faq__subtitle">Encuentra la respuesta a las dudas más comunes sobre nuestros servicios.</p>
+      <div class="faq__list">
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq1" id="faq1button">
+            ¿Cómo puedo contratar sus servicios?
+            <span class="faq-question__icon" aria-hidden="true">▶</span>
+          </button>
+          <p id="faq1" class="faq-answer" role="region" aria-labelledby="faq1button">
+            Puedes contratar nuestros servicios a través de la página de Pricing o contactándonos directamente.
+          </p>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq2" id="faq2button">
+            ¿Qué métodos de pago aceptan?
+            <span class="faq-question__icon" aria-hidden="true">▶</span>
+          </button>
+          <p id="faq2" class="faq-answer" role="region" aria-labelledby="faq2button">
+            Aceptamos tarjeta de crédito, transferencia bancaria y pagos vía PayPal.
+          </p>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq3" id="faq3button">
+            ¿Ofrecen soporte técnico?
+            <span class="faq-question__icon" aria-hidden="true">▶</span>
+          </button>
+          <p id="faq3" class="faq-answer" role="region" aria-labelledby="faq3button">
+            Sí, ofrecemos soporte vía email y teléfono durante horario comercial.
+          </p>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq4" id="faq4button">
+            ¿Puedo cambiar de plan después de contratar?
+            <span class="faq-question__icon" aria-hidden="true">▶</span>
+          </button>
+          <p id="faq4" class="faq-answer" role="region" aria-labelledby="faq4button">
+            Claro, puedes actualizar o modificar tu plan en cualquier momento desde tu perfil.
+          </p>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq5" id="faq5button">
+            ¿Cuál es la política de privacidad y manejo de datos?
+            <span class="faq-question__icon" aria-hidden="true">▶</span>
+          </button>
+          <p id="faq5" class="faq-answer" role="region" aria-labelledby="faq5button">
+            Respetamos tu privacidad y cumplimos con la normativa vigente; tus datos serán tratados con seguridad y confidencialidad.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__container container">
+      <p class="footer__text">© 2025 Mi Empresa. Todos los derechos reservados.</p>
+      <ul class="footer__links">
+        <li><a href="../home/index.html" class="footer__link">Home</a></li>
+        <li><a href="../about-us/index.html" class="footer__link">About Us</a></li>
+        <li><a href="../Pricing/index.html" class="footer__link">Pricing</a></li>
+        <li><a href="index.html" class="footer__link">FAQ</a></li>
+        <li><a href="../testimonials/index.html" class="footer__link">Testimonios</a></li>
+        <li><a href="../Contac/index.html" class="footer__link">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
